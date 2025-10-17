@@ -20,8 +20,8 @@ NGINX es un software de código abierto diseñado para ofrecer servicios web de 
 ### **NGINX con Docker**
 Al ejecutar NGINX dentro de un contenedor Docker, se obtiene un servidor web completamente funcional y fácilmente desplegable en distintos entornos. Esta combinación permite crear, modificar y eliminar servidores de forma ágil sin afectar la configuración del sistema anfitrión. Además, facilita el desarrollo y las pruebas locales antes de implementar proyectos en producción.
 
-> <p align="right">
-  <img src="images/figura1.jng" alt="Figura 1-1. Creación de contenedores" width="800px">
+<p align="right">
+  <img src="images/figura1.jpg" alt="Figura 1-1. Creación de contenedores" width="800px">
 </p>
 
 ## **4. Conocimientos previos**
@@ -67,7 +67,7 @@ Se crean dos contenedores Nginx independientes, asignando diferentes puertos par
 docker run -d --name nginx1 -p 8089:80 nginx
 docker run -d --name nginx2 -p 8090:80 nginx
 ````
-> <p align="left">
+<p align="left">
   <img src="images/figura2.png" alt="Figura 1-2. Creación de los contenedores nginx1 y nginx2" width="800px">
 </p>
 
@@ -81,7 +81,7 @@ docker ps
 
 **Resultado esperado:** dos contenedores en estado “Up”.
 
-> <p align="left">
+<p align="left">
   <img src="images/figura3.png" alt="Figura 1-3. Verificación de contenedores en ejecución" width="800px">
 </p>
 
@@ -93,7 +93,7 @@ Copiar los archivos originales al sistema anfitrión:
 docker cp nginx1:/usr/share/nginx/html/index.html ./index1.html
 docker cp nginx2:/usr/share/nginx/html/index.html ./index2.html
 ```
-> <p align="left">
+<p align="left">
   <img src="images/figura4.png" alt="Figura 1-4. Copiar el archivo original al sistema anfitrión" width="800px">
 </p>
 
@@ -137,7 +137,7 @@ nano index2.html
 </body>
 </html>
 ```
-> <p align="left">
+<p align="left">
   <img src="images/figura5.png" alt="Figura 1-5. Contenido modificado" width="800px">
 </p>
 
@@ -148,8 +148,7 @@ Copia del archivo editado al contenedor:
 docker cp index1.html nginx1:/usr/share/nginx/html/index.html
 docker cp index2.html nginx2:/usr/share/nginx/html/index.html
 ```
-
-> <p align="left">
+<p align="left">
   <img src="images/figura6.png" alt="Figura 1-6. Archivo editado copiado" width="800px">
 </p>
 
@@ -166,7 +165,7 @@ Acceso a los servidores desde el navegador:
 * **nginx1:** [http://localhost:8089](http://localhost:8089)
 * **nginx2:** [http://localhost:8090](http://localhost:8090)
 
-> <div style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: space-between;">
   <img src="images/nginx1.png" alt="Figura 1-7. nginx1" width="48%">
   <img src="images/nginx2.png" alt="Figura 1-8. nginx2" width="48%">
 </div>
