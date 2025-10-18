@@ -21,7 +21,7 @@ NGINX es un software de código abierto diseñado para ofrecer servicios web de 
 Al ejecutar NGINX dentro de un contenedor Docker, se obtiene un servidor web completamente funcional y fácilmente desplegable en distintos entornos. Esta combinación permite crear, modificar y eliminar servidores de forma ágil sin afectar la configuración del sistema anfitrión. Además, facilita el desarrollo y las pruebas locales antes de implementar proyectos en producción.
 
 <p align="right">
-  <img src="images/figura1.jpg" alt="Figura 1-1. Creación de contenedores" width="800px">
+  <img src="images/figura1.jpg" alt="Figura 1-1. Creación de contenedores" width="400px">
 </p>
 
 ## **4. Conocimientos previos**
