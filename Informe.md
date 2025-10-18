@@ -165,16 +165,15 @@ Acceso a los servidores desde el navegador:
 * **nginx1:** [http://localhost:8089](http://localhost:8089)
 * **nginx2:** [http://localhost:8090](http://localhost:8090)
 
-<div style="display: flex; justify-content: space-between;">
-  <img src="images/nginx1.png" alt="Figura 1-7. nginx1" width="48%">
-  <img src="images/nginx2.png" alt="Figura 1-8. nginx2" width="48%">
-</div>
-
 ## **9. Resultados esperados**
 
 Al finalizar la práctica se espera obtener dos servidores web funcionales ejecutándose en contenedores Nginx, cada uno con contenido HTML personalizado.
 Los archivos se transfirieron correctamente entre el contenedor y el anfitrión, y los puertos configurados (8089 y 8090) permiten acceder a los sitios web desde el navegador.
 Esto demuestra la capacidad de Docker para gestionar servicios aislados y reproducibles, así como la facilidad para personalizar configuraciones dentro de entornos contenerizados.
+<div style="display: flex; justify-content: space-between;">
+  <img src="images/nginx1.png" alt="Figura 1-7. nginx1" width="48%">
+  <img src="images/nginx2.png" alt="Figura 1-8. nginx2" width="48%">
+</div>
 
 ## **10. Bibliografía**
 
