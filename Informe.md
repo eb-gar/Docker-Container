@@ -53,9 +53,9 @@ Para realizar esta práctica, el estudiante necesita tener claros los siguientes
 ## **7. Material de apoyo**
 
 - Documentación oficial de Docker  
-- Guía de la asignatura *Tendencias Actuales en Desarrollo de Software*  
+- Documentación oficial de NGINX  
 - Cheat Sheet de comandos Linux  
-- Imagen oficial de NGINX en Docker Hub  
+- Documentacion Docker con NGINX
 
 ## **8. Procedimiento**
 
@@ -184,5 +184,3 @@ Esto demuestra la capacidad de Docker para gestionar servicios aislados y reprod
 * F5 Networks. (2023). *NGINX Glossary.* [https://www.f5.com/glossary/nginx](https://www.f5.com/glossary/nginx)
 * Soka, J. (2019). *Docker: Imágenes y contenedores.* [https://soka.gitlab.io/blog/post/2019-07-08-docker-imagenes-y-contenedores/](https://soka.gitlab.io/blog/post/2019-07-08-docker-imagenes-y-contenedores/)
 * Docker Inc. (2024). *How to use the official NGINX Docker image.* [https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/](https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/)
-
-```
